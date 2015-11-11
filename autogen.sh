@@ -1,11 +1,14 @@
 #!/bin/bash
 #set -x
 
+# This works by teleporting around a logged in player.
+# Bonus: if the player client has a mapmod like Journey Maps, it will map the world as it runs
+
 # How to use:
 # 0.  Put this script in your minecraft server root with LaunchServer.sh
 # 1.  From the minecraft server root directory, run your server inside a 'screen' session with the following command
 #        screen -dmSL minecraft sh LaunchServer.sh
-# 2.  Log your player in
+# 2.  Log your player in (creative mode w/ hover on)
 # 3.  Set the 'user' line below to your player name
 # 4.  To start exploring run
 #        ./autogen.sh
