@@ -1,7 +1,7 @@
 #!/bin/bash
 #set -x
 
-# This works by teleporting around a logged in player.
+# This works by teleporting a player around the map in an expanding spiral.
 # Bonus: if the player client has a mapmod like Journey Maps, it will map the world as it runs
 
 # How to use:
